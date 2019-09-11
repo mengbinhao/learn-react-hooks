@@ -7,3 +7,5 @@
    1. async
    2. 可以同时代替`componentDidMount`和`ComponentDidUpdate`
    3. 模拟`componentWillUnMount`,`useEffect`第二个参数的用法
+
+5. `useContext`
