@@ -14,7 +14,7 @@ const About = () => {
   return <div>About</div>
 }
 
-function Example() {
+function UseEffectDemo() {
   const [count, setState] = useState(0)
   useEffect(() => {
     console.log(`hi, you come in`)
@@ -39,4 +39,4 @@ function Example() {
     </div>
   )
 }
-export default Example
+export default UseEffectDemo

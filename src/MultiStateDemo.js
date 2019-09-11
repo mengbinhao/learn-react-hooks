@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 
-function Example2() {
+function MultiStateDemo() {
+  // eslint-disable-next-line
   const [name, setName] = useState('jack')
+  // eslint-disable-next-line
   const [age, setAge] = useState(33)
 
   return (
@@ -11,4 +13,4 @@ function Example2() {
     </div>
   )
 }
-export default Example2
+export default MultiStateDemo

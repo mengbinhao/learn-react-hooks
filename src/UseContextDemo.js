@@ -8,7 +8,7 @@ const Sub = () => {
   return <h4>sub component: {count}</h4>
 }
 
-function Example3() {
+function UseContextDemo() {
   const [ count, setCount ] = useState(0)
 
   return (
@@ -21,4 +21,4 @@ function Example3() {
     </div>
   )
 }
-export default Example3
+export default UseContextDemo

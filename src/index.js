@@ -1,7 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Example from './Example'
-import Example2 from './Example2'
-import Example3 from './Example3'
+// eslint-disable-next-line
+import BasicDemo from './BasicDemo'
+// eslint-disable-next-line
+import MultiStateDemo from './MultiStateDemo'
+// eslint-disable-next-line
+import UseEffectDemo from './UseEffectDemo'
+// eslint-disable-next-line
+import UseContextDemo from './UseContextDemo'
 
-ReactDOM.render(<Example3 />, document.getElementById('root'))
+import UseReducerDemo from './UseReducerDemo'
+
+
+
+ReactDOM.render(<UseReducerDemo />, document.getElementById('root'))
