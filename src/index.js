@@ -8,9 +8,15 @@ import MultiStateDemo from './MultiStateDemo'
 import UseEffectDemo from './UseEffectDemo'
 // eslint-disable-next-line
 import UseContextDemo from './UseContextDemo'
-
+// eslint-disable-next-line
 import UseReducerDemo from './UseReducerDemo'
+// eslint-disable-next-line
+import App from './mockredux/App'
+// eslint-disable-next-line
+import Parent from './usememo/Parent'
+// eslint-disable-next-line
+import UseRefDemo from './UseRefDemo'
 
+import MyHook from './MyHook'
 
-
-ReactDOM.render(<UseReducerDemo />, document.getElementById('root'))
+ReactDOM.render(<MyHook />, document.getElementById('root'))
